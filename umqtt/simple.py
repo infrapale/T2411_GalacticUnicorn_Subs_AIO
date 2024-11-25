@@ -8,7 +8,7 @@ from binascii import hexlify
 
 class MQTTException(Exception):
     pass
-
+ 
 
 class MQTTClient:
     def __init__(
