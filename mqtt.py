@@ -5,19 +5,6 @@ import data
 from data import mqtt_subs
 from time import sleep
 
-'''
-mqtt_subs = [
-    {'feed':'infrapale/feeds/villaastrid.ruuvi-e6', 'label':'MH1','value': 0.0, 'updated': False},
-    {'feed':'infrapale/feeds/villaastrid.ruuvi-ea', 'label':'K','value': 0.0, 'updated': False},
-    {'feed':'infrapale/feeds/villaastrid.ruuvi-ed', 'label':'Parvi','value': 0.0, 'updated': False},
-    {'feed':'infrapale/feeds/villaastrid.ruuvi-f2', 'label':'KHH','value': 0.0, 'updated': False},
-    {'feed':'infrapale/feeds/lillaastrid.studio-temp', 'label':'Studio','value': 0.0, 'updated': False},
-    {'feed':'infrapale/feeds/villaastrid.astrid-mode', 'label':'VA Mode','value': 0.0, 'updated': False},
-    {'feed': 'infrapale/feeds/demofeed',               'label':'Set Temp','value': 0.0, 'updated': False}, 
-    ]
-'''
-
-
 
 def subscribe(client, topic):
     client.subscribe(topic)
